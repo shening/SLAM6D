@@ -707,6 +707,8 @@ int main(int argc, char **argv)
 {
   signal (SIGSEGV, sigSEGVhandler);
   signal (SIGINT,  sigSEGVhandler);
+  ]
+  ]
 
   cout << "slam6D - "
        << "A highly efficient SLAM implementation based on scan matching"
